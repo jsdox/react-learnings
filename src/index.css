@@ -141,7 +141,7 @@ table > tbody > tr > td {
 /* Login/Signup forms*/
 
 .login-signup-form {
-    height: 100vh;
+    height: 82vh;
     display: flex;
     justify-content: center;
     align-items: center;
