@@ -246,3 +246,9 @@ table > tbody > tr > td {
     display: block;
     font-size: 80%;
 }
+
+.message .errors {
+    color:red;
+    display: block;
+    font-size: 80%;
+}
