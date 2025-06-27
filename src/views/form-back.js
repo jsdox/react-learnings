@@ -8,9 +8,9 @@ export default function UserForm(){
     const navigate = useNavigate();
     const [user, setUsers] = useState({
         id: null,
-        name: '',
-        email: '',
-        password: ''
+        name: 'name',
+        email: 'email@yoopmail.com',
+        password: '-----'
     });
     const [loading, setLoading] = useState(false);
     const [errors, setErrors] = useState(null);
