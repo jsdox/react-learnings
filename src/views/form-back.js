@@ -78,7 +78,7 @@ export default function UserForm(){
           <form onSubmit={onSubmit}>
             <input value={user.name} onChange={ev => setUsers({...user, name: ev.target.value})} placeholder="Name"/>
             <input value={user.email} onChange={ev => setUsers({...user, email: ev.target.value})} placeholder="Email"/>
-            <input type="password" onChange={ev => setUsers({...user, password: ev.target.value})} placeholder="Password"/>
+            <input type="password" onChange={ev => setUsers({...user, password: ev.target.value})} placeholder="******"/>
             <button className="btn">Save</button>
             <br/><br/>
             <Link to="/users"><button className="btn">Back</button></Link>
